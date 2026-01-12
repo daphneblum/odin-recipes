@@ -1,0 +1,159 @@
+:root {
+    /*color scheme*/
+    --color1: #FFFFFF;
+    --color2: #B9DC73;
+    --color3: #EA5779;
+    --color4: #E72A56;
+    --color5: #460C1A;
+    color: var(--color5);
+
+}
+
+header {
+    position: relative;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--color1);
+}
+
+h1 {
+    color: var(--color5);
+    font-style: italic;
+    font-variant: small-caps;
+    text-align: center;
+    margin: 0;
+    background-color: lightpink;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+nav {
+   position: absolute;
+   top: 20px;
+   right: 20px;
+}
+
+a:hover {
+    color: var(--color1);
+}
+
+h2 {
+    text-align: center;
+}
+
+.center {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+#skillslist {
+    columns: 3;
+    font-weight: bold;
+}
+
+.sectionHeader {
+    color: var(--color3);
+    font-variant: small-caps;
+}
+
+.employerName {
+    color: var(--color4);
+}
+
+.positionTitle {
+    color: var(--color4);
+    font-weight: bold;
+}
+
+table {
+    margin: 14px;
+    border-collapse: collapse;
+    border-spacing: 7px;
+    padding: 7px;
+    width: 98%;
+}
+
+caption {
+    font-style: italic;
+    color: var(--color3);
+    letter-spacing: 2px;
+    text-decoration: underline;
+}
+
+td {
+    border: 1px dotted var(--color4);
+    vertical-align: top;
+    padding: 7px;
+    color: var(--color5);
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+mark {
+    background-color:lightpink;
+}
+
+.form-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.form-column {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.courses {
+    display: block;
+    /* flex-wrap: wrap; */
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+li strong {
+    color: var(--color4);
+}
+
+
+img {
+    width: 30%;
+}
+
+audio {
+    width: 30%;
+}
+
+ul {
+    list-style: none;
+    
+}
+
+ul li::before
+{
+    content: '\2764';
+    margin: 0 1em; 
+}
